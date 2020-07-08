@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnCallActivityB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/button_call"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <ImageButton
+        android:id="@+id/myImageBtn1"
+        android:layout_width="105dp"
+        android:layout_height="94dp"
+        android:src="@drawable/hinh1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="298dp" ></ImageButton>
+
+    <ImageView
+        android:id="@+id/myImageView1"
+        android:layout_width="354dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="448dp"
+        android:src="@drawable/hinh4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints" ></ImageView>
+
+    <ImageButton
+        android:id="@+id/myButtonBtn2"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:src="@drawable/hinh2"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="637dp"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/myButtonBtn3"
+        android:layout_width="105dp"
+        android:layout_height="94dp"
+        android:src="@drawable/hinh3"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="637dp"></ImageButton>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="PRACTICE"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="394dp" ></Button>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="TEST"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="455dp" ></Button>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="LEARN"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="333dp" ></Button>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

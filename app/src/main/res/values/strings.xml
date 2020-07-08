@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bai19ActivitytoActivity</string>
+    <string name="activity_b">Đây là Activity B</string>
+    <string name="button_call">den Activity B</string>
+</resources>
